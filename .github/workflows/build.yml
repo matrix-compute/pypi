@@ -67,7 +67,7 @@ jobs:
       with:
         python-version: 3.9
     - run: pip install -r docker/requirements.txt
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4.1.7
       with:
         path: dist
     - run: python3 -um make_index --pypi-url https://pypi.devinfra.sentry.io --dest index
