@@ -14,7 +14,7 @@ markupsafe==2.1.1
 packaging==21.3
 patchelf==0.14.5.0 ; sys_platform == "linux"
 platformdirs==2.5.2
-pyelftools==0.28
+pyelftools==0.31
 pyparsing==3.0.9
 six==1.16.0
 typing-extensions==4.3.0
